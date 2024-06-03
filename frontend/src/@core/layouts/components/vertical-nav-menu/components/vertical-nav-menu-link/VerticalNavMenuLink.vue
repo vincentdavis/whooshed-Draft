@@ -2,17 +2,17 @@
   <v-list-item
     v-if="canViewVerticalNavMenuLink(item)"
     v-bind="linkProps"
-    :class="{'bg-gradient-primary white--text': isActive}"
+    :class="{' white--text': isActive}"
     class="vertical-nav-menu-link"
-    active-class="bg-gradient-primary"
+    active-class="primary"
   >
     <v-list-item-icon>
-      <v-icon
+      <!-- <v-icon
         :class="{'alternate-icon-small': !item.icon}"
         :color="isActive ? 'white': null"
       >
         {{ item.icon || alternateIcon }}
-      </v-icon>
+      </v-icon> -->
     </v-list-item-icon>
 
     <v-list-item-title :class="{'white--text': isActive}">

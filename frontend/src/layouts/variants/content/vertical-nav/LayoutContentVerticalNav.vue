@@ -36,7 +36,7 @@
     <!-- Slot: Footer -->
     <template #footer>
       <div class="d-flex justify-space-between">
-        <span>COPYRIGHT &copy; {{ new Date().getFullYear() }} MyWoosh, All rights Reserved</span>
+        <span>COPYRIGHT &copy; {{ new Date().getFullYear() }} MyWhoosh, All rights Reserved</span>
         <div class="d-flex align-center">
           <span>Get connected with us on social networks!</span>
          <a href="mailto:" class="text-decoration-none"

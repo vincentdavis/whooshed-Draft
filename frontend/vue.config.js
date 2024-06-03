@@ -5,7 +5,7 @@ module.exports = {
   publicPath: '/',
   lintOnSave: false,
   transpileDependencies: ['vuetify'],
-  "assetsDir": "cycling/static/",
+  "assetsDir": "mywhoose/static/",
   configureWebpack: {
     resolve: {
       alias: {
